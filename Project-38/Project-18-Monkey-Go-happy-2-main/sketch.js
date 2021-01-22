@@ -68,7 +68,7 @@ function draw() {
       
      survivalTime=survivalTime+1/10;
           //console.log(survivalTime);
-    camera.position.x=monkey.x;
+ 
     camera.position.y=monkey.y;
   if(bananaGroup.isTouching(monkey)){
     bananaGroup.destroyEach();
